@@ -1,0 +1,40 @@
+
+<title>Dots and Boxes</title>
+
+<head>
+    
+    <link rel="stylesheet" href="css/style.css" />
+   
+</head>
+	<br>
+	<div class="player1">
+	Player 1 : 0
+	</div>
+	<div class="player2">
+	Player 2 : 0
+	</div>
+	<div class="turn">
+		Turn :
+	</div>
+	<br>
+
+	<br>
+	<br>
+
+
+	<div id="app">  
+		
+	</div>
+
+<script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+<script>
+	var socket = io('http://localhost:3000');
+	socket.on('connect', function(){});
+	socket.on('event', function(data){});
+	socket.on('disconnect', function(){});
+</script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+
+
