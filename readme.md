@@ -1,4 +1,4 @@
-### Dots and Boxes Game
+# Dots and Boxes Game
 
 Steps to run project locally:
 
@@ -6,4 +6,4 @@ Steps to run project locally:
 2) Run `npm i` inside the cloned repository.
 3) Execute the command `node app.js` and open `localhost:3000` in your browser to access the application.
 
-# Enjoy !
+## Enjoy !
